@@ -15,6 +15,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'owasp/zap2docker-stable'
-          target: 'https://www.zaproxy.org'
+          target: 'http://testasp.vulnweb.com'
           rules_file_name: '.zap/rules.tsv'
           xmd_options: '-a'
